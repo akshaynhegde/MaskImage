@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA9C5F9A16EAD9A300868BF6 /* MDPlanetView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9C5F9916EAD9A300868BF6 /* MDPlanetView.m */; };
+		BACC85DA16EA209B00458B9A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACC85D916EA209B00458B9A /* UIKit.framework */; };
+		BACC85DC16EA209B00458B9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACC85DB16EA209B00458B9A /* Foundation.framework */; };
+		BACC85DE16EA209B00458B9A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACC85DD16EA209B00458B9A /* CoreGraphics.framework */; };
+		BACC85E416EA209B00458B9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BACC85E216EA209B00458B9A /* InfoPlist.strings */; };
+		BACC85E616EA209B00458B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BACC85E516EA209B00458B9A /* main.m */; };
+		BACC85EA16EA209B00458B9A /* MDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BACC85E916EA209B00458B9A /* MDAppDelegate.m */; };
+		BACC85EC16EA209B00458B9A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BACC85EB16EA209B00458B9A /* Default.png */; };
+		BACC85EE16EA209B00458B9A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BACC85ED16EA209B00458B9A /* Default@2x.png */; };
+		BACC85F016EA209B00458B9A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BACC85EF16EA209B00458B9A /* Default-568h@2x.png */; };
+		BACC85F316EA209B00458B9A /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BACC85F116EA209B00458B9A /* MainStoryboard_iPhone.storyboard */; };
+		BACC85F616EA209B00458B9A /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BACC85F416EA209B00458B9A /* MainStoryboard_iPad.storyboard */; };
+		BACC85F916EA209B00458B9A /* MDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BACC85F816EA209B00458B9A /* MDViewController.m */; };
+		BACC860116EA209B00458B9A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACC860016EA209B00458B9A /* SenTestingKit.framework */; };
+		BACC860216EA209B00458B9A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACC85D916EA209B00458B9A /* UIKit.framework */; };
+		BACC860316EA209B00458B9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACC85DB16EA209B00458B9A /* Foundation.framework */; };
+		BACC860B16EA209B00458B9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BACC860916EA209B00458B9A /* InfoPlist.strings */; };
+		BACC860E16EA209B00458B9A /* MaskDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BACC860D16EA209B00458B9A /* MaskDemoTests.m */; };
+		BACC861C16EA20EF00458B9A /* largeCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = BACC861816EA20EF00458B9A /* largeCircle.png */; };
+		BACC861D16EA20EF00458B9A /* largeCircle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BACC861916EA20EF00458B9A /* largeCircle@2x.png */; };
+		BACC861E16EA20EF00458B9A /* smallCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = BACC861A16EA20EF00458B9A /* smallCircle.png */; };
+		BACC861F16EA20EF00458B9A /* smallCircle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BACC861B16EA20EF00458B9A /* smallCircle@2x.png */; };
+		BACC862116EA214400458B9A /* dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BACC862016EA214400458B9A /* dog.jpg */; };
+		BACC862316EA481A00458B9A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACC862216EA481A00458B9A /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BACC860416EA209B00458B9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BACC85CE16EA209B00458B9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BACC85D516EA209B00458B9A;
+			remoteInfo = MaskDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA9C5F9816EAD9A300868BF6 /* MDPlanetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDPlanetView.h; sourceTree = "<group>"; };
+		BA9C5F9916EAD9A300868BF6 /* MDPlanetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDPlanetView.m; sourceTree = "<group>"; };
+		BACC85D616EA209B00458B9A /* MaskDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaskDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BACC85D916EA209B00458B9A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BACC85DB16EA209B00458B9A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BACC85DD16EA209B00458B9A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BACC85E116EA209B00458B9A /* MaskDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MaskDemo-Info.plist"; sourceTree = "<group>"; };
+		BACC85E316EA209B00458B9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BACC85E516EA209B00458B9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BACC85E716EA209B00458B9A /* MaskDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MaskDemo-Prefix.pch"; sourceTree = "<group>"; };
+		BACC85E816EA209B00458B9A /* MDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDAppDelegate.h; sourceTree = "<group>"; };
+		BACC85E916EA209B00458B9A /* MDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDAppDelegate.m; sourceTree = "<group>"; };
+		BACC85EB16EA209B00458B9A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BACC85ED16EA209B00458B9A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BACC85EF16EA209B00458B9A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BACC85F216EA209B00458B9A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		BACC85F516EA209B00458B9A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		BACC85F716EA209B00458B9A /* MDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDViewController.h; sourceTree = "<group>"; };
+		BACC85F816EA209B00458B9A /* MDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDViewController.m; sourceTree = "<group>"; };
+		BACC85FF16EA209B00458B9A /* MaskDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaskDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BACC860016EA209B00458B9A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BACC860816EA209B00458B9A /* MaskDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MaskDemoTests-Info.plist"; sourceTree = "<group>"; };
+		BACC860A16EA209B00458B9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BACC860C16EA209B00458B9A /* MaskDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaskDemoTests.h; sourceTree = "<group>"; };
+		BACC860D16EA209B00458B9A /* MaskDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaskDemoTests.m; sourceTree = "<group>"; };
+		BACC861816EA20EF00458B9A /* largeCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = largeCircle.png; sourceTree = "<group>"; };
+		BACC861916EA20EF00458B9A /* largeCircle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "largeCircle@2x.png"; sourceTree = "<group>"; };
+		BACC861A16EA20EF00458B9A /* smallCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smallCircle.png; sourceTree = "<group>"; };
+		BACC861B16EA20EF00458B9A /* smallCircle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "smallCircle@2x.png"; sourceTree = "<group>"; };
+		BACC862016EA214400458B9A /* dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog.jpg; sourceTree = "<group>"; };
+		BACC862216EA481A00458B9A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BACC85D316EA209B00458B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BACC862316EA481A00458B9A /* QuartzCore.framework in Frameworks */,
+				BACC85DA16EA209B00458B9A /* UIKit.framework in Frameworks */,
+				BACC85DC16EA209B00458B9A /* Foundation.framework in Frameworks */,
+				BACC85DE16EA209B00458B9A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BACC85FB16EA209B00458B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BACC860116EA209B00458B9A /* SenTestingKit.framework in Frameworks */,
+				BACC860216EA209B00458B9A /* UIKit.framework in Frameworks */,
+				BACC860316EA209B00458B9A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BACC85CD16EA209B00458B9A = {
+			isa = PBXGroup;
+			children = (
+				BACC85DF16EA209B00458B9A /* MaskDemo */,
+				BACC860616EA209B00458B9A /* MaskDemoTests */,
+				BACC85D816EA209B00458B9A /* Frameworks */,
+				BACC85D716EA209B00458B9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BACC85D716EA209B00458B9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BACC85D616EA209B00458B9A /* MaskDemo.app */,
+				BACC85FF16EA209B00458B9A /* MaskDemoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BACC85D816EA209B00458B9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BACC862216EA481A00458B9A /* QuartzCore.framework */,
+				BACC85D916EA209B00458B9A /* UIKit.framework */,
+				BACC85DB16EA209B00458B9A /* Foundation.framework */,
+				BACC85DD16EA209B00458B9A /* CoreGraphics.framework */,
+				BACC860016EA209B00458B9A /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BACC85DF16EA209B00458B9A /* MaskDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BACC861716EA20EF00458B9A /* Images */,
+				BACC85E816EA209B00458B9A /* MDAppDelegate.h */,
+				BACC85E916EA209B00458B9A /* MDAppDelegate.m */,
+				BACC85F116EA209B00458B9A /* MainStoryboard_iPhone.storyboard */,
+				BACC85F416EA209B00458B9A /* MainStoryboard_iPad.storyboard */,
+				BACC85F716EA209B00458B9A /* MDViewController.h */,
+				BACC85F816EA209B00458B9A /* MDViewController.m */,
+				BA9C5F9816EAD9A300868BF6 /* MDPlanetView.h */,
+				BA9C5F9916EAD9A300868BF6 /* MDPlanetView.m */,
+				BACC85E016EA209B00458B9A /* Supporting Files */,
+			);
+			path = MaskDemo;
+			sourceTree = "<group>";
+		};
+		BACC85E016EA209B00458B9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BACC85E116EA209B00458B9A /* MaskDemo-Info.plist */,
+				BACC85E216EA209B00458B9A /* InfoPlist.strings */,
+				BACC85E516EA209B00458B9A /* main.m */,
+				BACC85E716EA209B00458B9A /* MaskDemo-Prefix.pch */,
+				BACC85EB16EA209B00458B9A /* Default.png */,
+				BACC85ED16EA209B00458B9A /* Default@2x.png */,
+				BACC85EF16EA209B00458B9A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BACC860616EA209B00458B9A /* MaskDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BACC860C16EA209B00458B9A /* MaskDemoTests.h */,
+				BACC860D16EA209B00458B9A /* MaskDemoTests.m */,
+				BACC860716EA209B00458B9A /* Supporting Files */,
+			);
+			path = MaskDemoTests;
+			sourceTree = "<group>";
+		};
+		BACC860716EA209B00458B9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BACC860816EA209B00458B9A /* MaskDemoTests-Info.plist */,
+				BACC860916EA209B00458B9A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BACC861716EA20EF00458B9A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BACC862016EA214400458B9A /* dog.jpg */,
+				BACC861816EA20EF00458B9A /* largeCircle.png */,
+				BACC861916EA20EF00458B9A /* largeCircle@2x.png */,
+				BACC861A16EA20EF00458B9A /* smallCircle.png */,
+				BACC861B16EA20EF00458B9A /* smallCircle@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BACC85D516EA209B00458B9A /* MaskDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BACC861116EA209B00458B9A /* Build configuration list for PBXNativeTarget "MaskDemo" */;
+			buildPhases = (
+				BACC85D216EA209B00458B9A /* Sources */,
+				BACC85D316EA209B00458B9A /* Frameworks */,
+				BACC85D416EA209B00458B9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaskDemo;
+			productName = MaskDemo;
+			productReference = BACC85D616EA209B00458B9A /* MaskDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BACC85FE16EA209B00458B9A /* MaskDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BACC861416EA209B00458B9A /* Build configuration list for PBXNativeTarget "MaskDemoTests" */;
+			buildPhases = (
+				BACC85FA16EA209B00458B9A /* Sources */,
+				BACC85FB16EA209B00458B9A /* Frameworks */,
+				BACC85FC16EA209B00458B9A /* Resources */,
+				BACC85FD16EA209B00458B9A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BACC860516EA209B00458B9A /* PBXTargetDependency */,
+			);
+			name = MaskDemoTests;
+			productName = MaskDemoTests;
+			productReference = BACC85FF16EA209B00458B9A /* MaskDemoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BACC85CE16EA209B00458B9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MD;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Akshay;
+			};
+			buildConfigurationList = BACC85D116EA209B00458B9A /* Build configuration list for PBXProject "MaskDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BACC85CD16EA209B00458B9A;
+			productRefGroup = BACC85D716EA209B00458B9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BACC85D516EA209B00458B9A /* MaskDemo */,
+				BACC85FE16EA209B00458B9A /* MaskDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BACC85D416EA209B00458B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BACC85E416EA209B00458B9A /* InfoPlist.strings in Resources */,
+				BACC85EC16EA209B00458B9A /* Default.png in Resources */,
+				BACC85EE16EA209B00458B9A /* Default@2x.png in Resources */,
+				BACC85F016EA209B00458B9A /* Default-568h@2x.png in Resources */,
+				BACC85F316EA209B00458B9A /* MainStoryboard_iPhone.storyboard in Resources */,
+				BACC85F616EA209B00458B9A /* MainStoryboard_iPad.storyboard in Resources */,
+				BACC861C16EA20EF00458B9A /* largeCircle.png in Resources */,
+				BACC861D16EA20EF00458B9A /* largeCircle@2x.png in Resources */,
+				BACC861E16EA20EF00458B9A /* smallCircle.png in Resources */,
+				BACC861F16EA20EF00458B9A /* smallCircle@2x.png in Resources */,
+				BACC862116EA214400458B9A /* dog.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BACC85FC16EA209B00458B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BACC860B16EA209B00458B9A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BACC85FD16EA209B00458B9A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BACC85D216EA209B00458B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BACC85E616EA209B00458B9A /* main.m in Sources */,
+				BACC85EA16EA209B00458B9A /* MDAppDelegate.m in Sources */,
+				BACC85F916EA209B00458B9A /* MDViewController.m in Sources */,
+				BA9C5F9A16EAD9A300868BF6 /* MDPlanetView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BACC85FA16EA209B00458B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BACC860E16EA209B00458B9A /* MaskDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BACC860516EA209B00458B9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BACC85D516EA209B00458B9A /* MaskDemo */;
+			targetProxy = BACC860416EA209B00458B9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BACC85E216EA209B00458B9A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BACC85E316EA209B00458B9A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BACC85F116EA209B00458B9A /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BACC85F216EA209B00458B9A /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		BACC85F416EA209B00458B9A /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BACC85F516EA209B00458B9A /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		BACC860916EA209B00458B9A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BACC860A16EA209B00458B9A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BACC860F16EA209B00458B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BACC861016EA209B00458B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BACC861216EA209B00458B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MaskDemo/MaskDemo-Prefix.pch";
+				INFOPLIST_FILE = "MaskDemo/MaskDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BACC861316EA209B00458B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MaskDemo/MaskDemo-Prefix.pch";
+				INFOPLIST_FILE = "MaskDemo/MaskDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BACC861516EA209B00458B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MaskDemo.app/MaskDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MaskDemo/MaskDemo-Prefix.pch";
+				INFOPLIST_FILE = "MaskDemoTests/MaskDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BACC861616EA209B00458B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MaskDemo.app/MaskDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MaskDemo/MaskDemo-Prefix.pch";
+				INFOPLIST_FILE = "MaskDemoTests/MaskDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BACC85D116EA209B00458B9A /* Build configuration list for PBXProject "MaskDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BACC860F16EA209B00458B9A /* Debug */,
+				BACC861016EA209B00458B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BACC861116EA209B00458B9A /* Build configuration list for PBXNativeTarget "MaskDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BACC861216EA209B00458B9A /* Debug */,
+				BACC861316EA209B00458B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BACC861416EA209B00458B9A /* Build configuration list for PBXNativeTarget "MaskDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BACC861516EA209B00458B9A /* Debug */,
+				BACC861616EA209B00458B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BACC85CE16EA209B00458B9A /* Project object */;
+}
